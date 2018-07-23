@@ -1,0 +1,13 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+p:nth-child(3n) {
+    background-color: gray;
+}
+
+p:nth-child(5n) {
+    opacity: 0.1;
+}
